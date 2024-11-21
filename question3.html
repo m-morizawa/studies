@@ -14,24 +14,25 @@
         <div class="section">
             <h2>問題3</h2>
             <p>
-                「わきくけこ」が表す都道府県！な～んだ！？
+                以下のコードの結果は何ですか？
+            </p>
+            <p>
+                console.log(typeof null);
             </p>
             <h3>選択肢</h3>
             <ol class="answers" data-id="question3">
-                <li data-answer="A">北海道</li>
-                <li data-answer="B">山梨県</li>
-                <li data-answer="C">香川県</li>
-                <li data-answer="D">神奈川県</li>
+                <li data-answer="A">"null"</li>
+                <li data-answer="B">"undefined"</li>
+                <li data-answer="C">"object"</li>
+                <li data-answer="D">エラーになる</li>
             </ol>
        </div>
     <div id="section-correct-answer" class="section">
             <h2>答え</h2>
             <p>
-                <span id="correct-answer">C:香川県</span><br>
-                「わきくけこ」は、か行で、本来「か」が来るべき場所に「わ」が来てるね！
-                もう気付いたかな！？
-                「か」が「わ」になっているので、香川県が正解だよ！！
-                間違えた人は讃岐うどんを取り寄せよう！！
+                <span id="correct-answer">C:"object"</span><br>
+                JavaScriptでは null のデータ型は「オブジェクト」として判定されます。
+                これは言語設計時のバグですが、現在でもそのまま使われています。
             </p>
     </div>
 

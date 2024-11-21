@@ -34,7 +34,7 @@ function checkClickedAnswer(event) {
 
     } else {
         // 間違った答えだった時
-        message = 'ざ～んねんでした！！不正解でっす！';
+        message = '残念でした！！不正解です！';
         answerColorCode = '#f05959';
     }
 
