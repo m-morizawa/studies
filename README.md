@@ -34,7 +34,7 @@ Quiz-App/
 ├── question4.html     # 問題4ページ
 ├── questions.js       # 問題データを管理するJavaScriptファイル
 ├── style.css          # スタイルシート
-└── README.md          # このREADMEファイル
+└── README.md          # プロジェクトの説明書
 
 ```
 ---
